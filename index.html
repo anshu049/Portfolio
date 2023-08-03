@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* Add your custom styles here */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 1rem auto;
+            display: block;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fff;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 1rem;
+        }
+        .social-links a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+        .social-links a:hover {
+            color: #007bff;
+        }
+        /* Custom styles for the social links */
+        .social-links a[href*="linkedin"] {
+            color: green;
+        }
+        .social-links a[href*="twitter"] {
+            color: green;
+        }
+        .social-links a[href*="github"] {
+            color: green;
+        }
+        /* Custom style for project link */
+        .project-link {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="profile-pic" src="pp.png" alt="Your Name">
+        <h1>Anshu Kumar</h1>
+        <p>DevOps</p>
+    </header>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <p>
+            Welcome to my portfolio! I am a passionate DevOps Engineer, constantly seeking new challenges and opportunities to learn and grow in the field. With a strong foundation in Linux, AWS, Kubernetes, Jenkins, ArgoCD, and Ansible I enjoy building modern CI/CD pipelines and Infrastructures.
+        </p>
+
+        <h2>Projects</h2>
+        <p>
+            <strong>CI/CD using Jenkins and ArgoCD into EKS for Microservices</strong><br>
+            In this project, I designed and implemented a robust CI/CD pipeline using Jenkins and ArgoCD for deploying microservices onto an Amazon Elastic Kubernetes Service (EKS) cluster. The pipeline automated the build, testing, and deployment processes, ensuring efficient and reliable software releases. You can find the project code on GitHub: <a class="project-link" href="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+            Want to get in touch? Feel free to reach out to me via email at <a href="mailto:anshukushwaha824@gmail.com">anshukushwaha824@gmail.com</a>.
+        </p>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/anshuhtwt" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://twitter.com/anshuhtwt" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="https://github.com/anshuhtwt" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
